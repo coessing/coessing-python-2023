@@ -1,0 +1,25 @@
+name: pythia-book-dev
+channels:
+  - conda-forge
+dependencies:
+  - cartopy
+  - jupyter-book
+  - jupyterlab
+  - matplotlib
+  - nc-time-axis
+  - netcdf4
+  - numpy
+  - pip
+  - pre-commit
+  - dask
+  - pyproj
+  - pythia-datasets
+  - python
+  - scipy<1.11
+  - ffmpeg
+  - sqlalchemy<1.4
+  - xarray
+  - python-graphviz
+  - graphviz
+  - pip:
+      - sphinx-pythia-theme
